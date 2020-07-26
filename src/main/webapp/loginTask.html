@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Task</title>
+    <style>
+        body{
+            margin-top: 30px;
+            
+        }
+        .total-area{
+            width:400px;
+        }
+        .sign-in{
+            background-color: #00CED1;
+            padding: 8px 0 8px 0;
+            text-align: center;
+            color: #fff;
+            border-radius: 3px;
+        }
+        .form{
+            margin-top: 10px;
+            width: 380px;
+        }
+        .link{
+            color: #000;
+            text-decoration: none;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #b7c9cc;
+            line-height: 0.1em;
+            margin: 30px 0 50px;
+        }
+        p span{
+            background:#fff;
+            padding:0 10px;
+            color: #b7c9cc;
+        }
+        
+        .input-icons i { 
+            position: absolute; 
+            float : right; 
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+        .icon { 
+            padding: 10px; 
+            padding-top: 10px; 
+            min-width: 40px;
+            position:relative;
+        } 
+          
+        .input-field { 
+            width: 90%; 
+            padding: 10px; 
+            margin-bottom:10px;
+            float:right;
+        }
+        
+        .social-icon{
+            padding:8px 0 8px 0;
+            text-align: center;
+            background-color: #4267B2;
+            color: #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .social-icon:hover{
+            opacity: 0.9;
+            cursor: pointer;
+        }
+        .epam-signin{
+            background-color:#c7d44c;
+            color:white;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 40px;
+            padding:8px 0 8px 0;
+            margin-bottom: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="continer" style="">
+        <div class="container total-area" style="padding-top:3px;padding-bottom:3px;">
+            <div class="sign-in"><img height="35" src="epamLogo1.png" style="float:left;padding-top:8px;padding-left:8px;"><span><h6>Sign in</span></div>
+            <form class='form container'>
+        <div class="input-icons" style="display:inline;"> 
+        
+            <i class="fa fa-envelope icon" ></i>
+            <input style="position:relative;" class="input-field" type="text" placeholder="mail@gmail.com"> <br>
+        </div>
+            <div class="input-icons" style="display:inline;">
+                <table>
+            <i class="fa fa-lock icon" style="padding-top:50px;"></i> 
+            <input class="input-field" type="text" placeholder="password"> <br>
+            </table>
+        </div> 
+                <div class="form-group" style="margin-top:40px;">
+                    <input type="submit" class="form-control" style="color:#fff;background-color:#00CED1;" value="SIGN IN">
+                    <span><a href="#" class="link">Forgot your password?</a> <a href="#" style="float:right;" class="link">Register!</a></span>
+                </div>
+    
+                <p><span class="before-social-media">OR</span></p>
+    
+                <div class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div class="social-icon" style="background-color: #EA4335;"><i class="fa fa-google" aria-hidden="true"></i></div>
+                <div class="epam-signin" aria-hidden="true"><h6>&lt EPAM LOGIN &gt</h6></i></div>
+              </form>
+              
+        </div>
+    </div>
+</body>
+</html>
